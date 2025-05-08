@@ -1,5 +1,18 @@
+
+
+body {
+  display: flex;
+  flex-direction: column;
+padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;  }
+
+
+
+
 header { 
- background-color: #0073e6; 
+
  display: flex;
 justify-content: space-between;
  align-items: center; }
@@ -116,3 +129,10 @@ bottom: 20px;
 left: 50px;
 
 }
+.corner-shape {
+  width: 90px;
+  height: 130px;
+  background-color: #210d2f;
+  position: relative ;
+  Left:10px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 60%, 0 70%);}
