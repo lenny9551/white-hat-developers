@@ -42,6 +42,13 @@ body {
                      nav a:hover{ 
                         text-decoration: overline; 
                     }
+                    .corner-shape {
+                      width: 90px;
+                      height: 130px;
+                      background-color: #210d2f;
+                      position: relative ;
+                      Left:10px;
+                      clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 60%, 0 70%);}
 
                     .footer-content.social-media {
                      display: flex;
@@ -104,6 +111,7 @@ body {
               .textarea-container {
                 display: none;
                 margin-top: 10px;
+                width: 20%;
               }
           
               textarea {
@@ -130,4 +138,31 @@ body {
                 background-color: #2A1835;
                 color: white;
                 border: none;
+                width: 8%;
+              }
+              form {
+                max-width: 400px;
+                margin: auto;
+              }
+          
+              input[type="text"] {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+              }
+          
+              button {
+                padding: 10px 20px;
+                background-color: #007BFF;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+              }
+          
+              button:hover {
+                background-color: #0056b3;
               }

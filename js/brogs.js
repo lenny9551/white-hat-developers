@@ -11,3 +11,17 @@ const showCommentBtn = document.getElementById('showCommentBtn');
       textareaContainer.style.display = 'none';
       showCommentBtn.style.display = 'inline-block';
     });
+    document.getElementById('postForm').addEventListener('submit', function(e) {
+      e.preventDefault(); // Prevent actual form submission
+
+      const message = document.getElementById('message').value;
+      
+      // Simulated POST action (e.g., send to server or log to console)
+      console.log('Message posted:', message);
+
+      // Optional: Reset form
+      this.reset();
+      
+      // Optional: Display confirmation
+      alert('Message posted successfully!');
+    });

@@ -69,6 +69,38 @@
                 left: 50px;
         
               }
-                   
+                  .container{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    gap: 20px;
+                    padding-left: 470;
+                    margin-bottom:-30px;
+                  }
+                 .con-1{
+                padding: 20px;
+                background-color: #f0f0f0;
+                border-radius: 10px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                flex: 1;
+                margin-right: 20px;
+                
+                 }
+                 .con-1 p{
+                  color: black;
+                  text-align: left;
+                  position: relative;
+                  bottom: 20px;
+                  right: 500px;
+                  font-size: 13px;
+                  font-weight: bold;
+                  line-height: 1.5;
+
+                 }
+                 .con-1 img{
+                  border-radius: 50%;
+
+                 }
+                
             
                    

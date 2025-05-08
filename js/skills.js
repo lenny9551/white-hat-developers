@@ -36,3 +36,4 @@ const cards = [
 
   // Initial load
   updateCard();
+  document.getElementById('desc').style.color = 'black';
