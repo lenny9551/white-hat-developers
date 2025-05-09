@@ -1,5 +1,12 @@
+body {
+  display: flex;
+  flex-direction: column;
+padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;  }
 
-.logo header header { /* background-color: #0073e6; */ 
+header { /* background-color: #0073e6; */ 
     display: flex;
      justify-content: space-between;
       align-items: center; }
@@ -20,7 +27,7 @@
                    .body{
                     background-color: rgb(243, 243, 209);
                    }
-                   footer-content.social-media {
+                   .footer-content.social-media {
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -60,19 +67,19 @@
                 font-size: 14px;
                 margin-top: 20px;
                 color: #ffff;
-                text-align: center;
+                text-align: right;
                 font-weight: bold;
         padding: 0 20px;
                 line-height: 1.5;
-                position: relative;
-                bottom: 20px;
+                position:fixed;
+                bottom: 30px;
                 left: 50px;
         
               }
                   .container{
-                    display: flex;
+                    display: absolute;
                     justify-content: space-between;
-                    align-items: center;
+                    align-items: left;
                     gap: 20px;
                     padding-left: 470;
                     margin-bottom:-30px;
@@ -80,7 +87,7 @@
                  .con-1{
                 padding: 20px;
                 background-color: #f0f0f0;
-                border-radius: 10px;
+                border-radius: 6px;
                 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
                 flex: 1;
                 margin-right: 20px;
@@ -89,9 +96,9 @@
                  .con-1 p{
                   color: black;
                   text-align: left;
-                  position: relative;
-                  bottom: 20px;
-                  right: 500px;
+                position:absolute;
+                  bottom: 30px;
+                  right: 100px;
                   font-size: 13px;
                   font-weight: bold;
                   line-height: 1.5;
