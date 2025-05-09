@@ -1,3 +1,10 @@
+body {
+  display: flex;
+  flex-direction: column;
+padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;  }
 
  
  body {
@@ -117,7 +124,7 @@ padding: 0;
                   /* .container{
                     display: flex;
                     justify-content: space-between;
-                    align-items: center;
+                    align-items: left;
                     gap: 20px;
                     padding-left: 470;
                     margin-bottom:-30px; */
@@ -138,9 +145,9 @@ padding: 0;
                  .con-1 p{
                   color: black;
                   text-align: left;
-                  position: relative;
-                  bottom: 20px;
-                  right: 500px;
+                position:absolute;
+                  bottom: 30px;
+                  right: 100px;
                   font-size: 13px;
                   font-weight: bold;
                   line-height: 1.5;
