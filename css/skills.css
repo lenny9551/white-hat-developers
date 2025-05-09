@@ -19,6 +19,7 @@ body {
   }
   /* for nav style */
   nav{
+
     padding-left: 470px;
     margin-bottom:-30px;
     display: flex;
@@ -31,6 +32,8 @@ body {
     gap: 40px;
     padding: 0;
     margin: 0;
+    nav-down: auto;
+    
   }
   /* for nav links */
   nav a {
