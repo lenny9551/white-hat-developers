@@ -54,7 +54,7 @@ margin-bottom: 20px;
 }
 
 .contact-box {
-background: #b6b4b4;
+background: #d0cfcf;
 color: #f0f0f5;
 padding: 10px;
 margin: 10px 0;
@@ -137,3 +137,24 @@ left: 50px;
   position: relative ;
   Left:10px;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 60%, 0 70%);}
+span{
+  color: black;
+}
+.contact-box .location .icon {
+    margin-bottom: 5px;
+  }
+  .contact-box .label {
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-bottom: 2px;
+  }
+  .contact-box .value {
+    font-size: 0.8em;
+  }
+  .contact-box .icon img {
+    width: 20px;
+    height: auto;
+  }
+  .contact-box .icon {
+    margin-right: 10px;
+  }

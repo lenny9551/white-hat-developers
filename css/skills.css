@@ -4,7 +4,8 @@ body {
   padding: 0;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;  }
+    background-color: #f4f4f4; 
+   }
   /* for header*/
   header {
    
@@ -33,7 +34,7 @@ body {
     padding: 0;
     margin: 0;
     nav-down: auto;
-    
+
   }
   /* for nav links */
   nav a {
