@@ -1,30 +1,46 @@
+body {
+  display: flex;
+  flex-direction: column;
+padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;  }
 
- header { /* background-color: #0073e6; */ 
+header { /* background-color: #0073e6; */ 
     display: flex;
      justify-content: space-between;
       align-items: center; 
     }
 
        /* for header logo */ 
-       header .logo img { 
-        height: auto; 
-      } 
+       
        /* for nav style */ 
-       nav
-       { padding-left: 470px;
-         margin-bottom:-30px; 
-         display: flex; 
-         justify-content: center; 
-         align-items: center;
-         }
-          nav ul { list-style: none;
-             display: flex;
-              gap: 20px; padding-left: 470; }
-               /* for nav links */ nav a { text-decoration: none; 
-                color: #333;
-                 font-size: 16px; 
-                 font-weight: bold;
-                   } /* for better looking */ nav a:hover{ text-decoration: overline; }
+       nav{
+        padding-left: 470px;
+        margin-bottom:-30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 40px;
+        padding: 0;
+        margin: 0;
+      }
+      /* for nav links */
+      nav a {
+        text-decoration: none;
+        color: #333;
+        font-size: 16px;
+        font-weight: bold;
+        /* cursor: pointer; */
+      }
+      /* for better looking */
+      nav a:hover{
+        text-decoration: overline;
+      }
                    .body{
                     background-color: aquamarine;
                     text-align: center;
@@ -83,20 +99,53 @@
                 height: 130px;
                 background-color: #210d2f;
                 position: relative ;
-                Left: 1160px;
-                top: -60px;
+                right: 0;
+                left: 1182px;
+                top: -110px;
                 clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 60%, 0 70%);}
                 .img1{
-                    border-radius: 70%;
-                }
-                img{
-                  /* margin-left: 230px; */
                   position: relative;
-                  top: -50px;
-                  left: 900px;
+                  left: 854px;
+                    border-radius: 70%;
+                    top: -50px;
+                    display: flex;
+                    flex-direction: row;
                 }
+               .img2{
+                position: relative;
+                left: 894px;
+                  border-radius: 90%;
+                  top: -120px;
+                  display: flex;
+                  flex-direction: row;
+               }
+               .img3{
+                position: relative;
+                left: 934px;
+                  border-radius: 30%;
+                  top: -180px;
+                  display: flex;
+                  flex-direction: row;
+               }
+               .img4{
+                position: relative;
+                left: 984px;
+                border-radius: 30%;
+                top: -230px;
+                display: flex;
+                flex-direction: row;
+              }
                 h3{
                   text-align: center;
                 }
+                .logo{
+                 
+                  border-radius: 50%;
+               position: relative;
+               left: 0;
+               top: auto;
+
+                }
+
 
  
