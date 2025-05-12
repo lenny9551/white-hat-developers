@@ -8,39 +8,54 @@ padding: 0;
   font-family: Arial, sans-serif;
   background-color: #f4f4f4; 
  }
- header { 
-  /* background-color: #0073e6; */ 
+ header {
+   
+    
     display: flex;
-     justify-content: space-between;
-      align-items: center; 
-    }
-       /* for header logo */ 
-       header .logo img { 
-        height: auto; 
-      } 
-       /* for nav style */ nav{ 
-        padding-left: 470px;
-         margin-bottom:-30px; 
-         display: flex; 
-         justify-content: center; 
-         align-items: center;
-         } 
-         nav ul { 
-          list-style: none;
-             display: flex;
-              gap: 20px; 
-              padding-left: 470;
-             }
-               /* for nav links */ nav a 
-               {
-                 text-decoration: none; 
-                color: #333;
-                 font-size: 16px; 
-                 font-weight: bold;
-                   } /* for better looking */
-                    nav a:hover{ 
-                      text-decoration: overline;
-                     }
+    justify-content: space-between;
+    align-items: center;
+  } 
+  /* for header logo */
+  header .logo img {
+    height: auto;
+  }
+  /* for nav style */
+  nav{
+
+    padding-left: 470px;
+    margin-bottom:-30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+    nav-down: auto;
+
+  }
+  /* for nav links */
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    /* cursor: pointer; */
+  }
+  /* for better looking */
+  nav a:hover{
+    text-decoration: overline;
+  }
+   .corner-shape {
+        width: 90px;
+        height: 130px;
+        background-color: #210d2f;
+        position: relative ;
+        Left:10px;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 60%, 0 70%);}
                    
 
                      .footer-content.social-media {
@@ -251,6 +266,22 @@ padding: 0;
                       /* width: 80%;     position: relative; */
                     /* top: 350px; */
                     }
+                  .con-1 :hover{
+                    transform: scale(1.05);
+
+                  }
+                   .con-2 :hover{
+                    transform: scale(1.05);
+                    
+                  }
+                   .con-3 :hover{
+                    transform: scale(1.05);
+                    
+                  }
+                   .con-4 :hover{
+                    transform: scale(1.05);
+                    
+                  }
                     @media (max-width: 768px) {
                       body {
                         flex-direction: column;
