@@ -259,6 +259,66 @@ padding: 0;
                          .con-4 img{
                           border-radius: 40%;
                          }
+                          .con-5{
+                 
+                        padding: 0;
+                        background-color: rgb(225, 225, 225);
+                        border-radius: 50px;
+                        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                        flex: 1;
+                        margin-right: 20px;
+                        border: 1px solid #ccc;
+                        padding: 20px;
+                        display: flex;
+                        flex-direction: column;
+                        width: 300px;
+                        position: relative;
+                        left: 10px;
+                         }
+                         .con-5 p{
+                          color: black;
+                          text-align: left;
+                          position: relative;
+                          bottom: 20px;
+                          right: 500px;
+                          font-size: 13px;
+                          font-weight: bold;
+                          line-height: 1.5;
+        
+                         }
+                         .con-5 img{
+                          border-radius: 40%;
+                         }
+                          .con-6{
+                 
+                        padding: 0;
+                        background-color: rgb(225, 225, 225);
+                        border-radius: 50px;
+                        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                        flex: 1;
+                        margin-right: 20px;
+                        border: 1px solid #ccc;
+                        padding: 20px;
+                        display: flex;
+                        flex-direction: column;
+                        width: 300px;
+                        position: relative;
+                        left: 10px;
+                         }
+                         .con-6 p{
+                          color: black;
+                          text-align: left;
+                          position: relative;
+                          bottom: 20px;
+                          right: 500px;
+                          font-size: 13px;
+                          font-weight: bold;
+                          line-height: 1.5;
+        
+                         }
+                         .con-6 img{
+                          border-radius: 40%;
+                         }
                     .container{
                       display: grid;
                       grid-template-columns: repeat(2, 1fr);
@@ -286,6 +346,14 @@ padding: 0;
                     
                   }
                    .con-4 :hover{
+                    transform: scale(1.05);
+                    
+                  }
+                    .con-5 :hover{
+                    transform: scale(1.05);
+                    
+                  }
+                    .con-6 :hover{
                     transform: scale(1.05);
                     
                   }
