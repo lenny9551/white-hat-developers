@@ -139,6 +139,15 @@ body {
                 color: white;
                 border: none;
                 width: 8%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                left: 600px;
+                top: 95px;
+
+                /* right: 0; */
+
               }
               form {
                 max-width: 400px;
