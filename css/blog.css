@@ -170,6 +170,32 @@ body {
               button:hover {
                 background-color: #0056b3;
               }
+              textarea{
+                width: 20%;
+                margin-left: 390px;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+              }
+              .btn {
+                margin-left: 400px;
+              }
+              .btn .delete-btn{
+                background-color: #210d2f;
+
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                cursor: pointer;
+
+              }
+              .btn button{
+                background-color: #210d2f;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                cursor: pointer;
+              }
               /* Responsive Design */
               @media (max-width: 768px) {
                 body {
