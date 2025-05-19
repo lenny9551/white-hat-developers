@@ -10,7 +10,7 @@ padding: 0;
 header {
  
   
-  display: flex;
+ display: flex;
   justify-content: space-between;
   align-items: center;
 } 
@@ -33,7 +33,7 @@ nav ul {
   gap: 40px;
   padding: 0;
   margin: 0;
-  nav-down: auto;
+  nav-down: current;
 
 }
 /* for nav links */
