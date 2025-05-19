@@ -3,13 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>brogs</title>
-    <!-- <link rel="stylesheet" href="/css/blog.css">  -->
-     <link rel="stylesheet" href="./../css/blog.css">
-
+    <title>Document</title>
+    <link rel="stylesheet" href="./../css/login.css">
 </head>
 <body>
-    <div class="container-1">
+      <div class="container-1">
         <header>
             <img src="../assets/image/logo.jpg" alt="logo" width="100" height="100">
             <nav>
@@ -20,39 +18,29 @@
                     <li><a href="blog.html">blogs</a></li>
                     <li><a href="portfolio.html">portifolio</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                      <li><a href="login.html">login</a></li>
+                    <li><a href="login.html">login</a></li>
                       <li><a href="signup.html">signup</a></li>
+
+
                 </ul>
             </nav>
             <div class="corner"></div>
             <div class="corner-shape"></div>
         </header>
     </div>
-    <!-- <button id="showCommentBtn" class="comment-btn">Comment</button> -->
+    <div class="login">
+        <form action="">
+            <input type="email" placeholder="email" required class="email">
+             
+            <input type="password" placeholder="password" required class="password">
+            
+            <button type="submit" onclick="validatelogin()">login</button>
+           <p class=" error-message"></p>
+            <a href="#">forgot password?</a><br><br><a href="signup.html">you need to sign up?</a>
+        </form>
+    </div>
+    <script src="../js/login.js"></script>
 
-  <div class="comment-section" id="commentSection">
-     <h2>Welcome, <span id="username"></span>!</h2>
-    <!-- <div class="textarea-container" id="textareaContainer"> -->
-      <textarea placeholder="Write your comment..." id="textarea"></textarea><br />
-      <div class="btn">
-             <button class="delete-btn" id="delete" onclick="logout()">logout</button>
-               <button type="submit" onclick=" loadBlogs()" id="logoutBtn">Post</button>
-                <h3>Your Blog Posts:</h3>
-  <ol id="blogList"></ol>
-              </div>
- 
-    <!-- </div> -->
-  <!-- </div> -->
-  <!-- <form id="postForm">
-    <label for="message">Your Message:</label>
-    <input type="text" id="message" name="message" placeholder="Write something..." required>
-    <button type="submit">Post</button>
-  </form>
-     -->
-   <script src="../js/brogs.js"></script>
-    
-
- 
     <div class="footer-content">
         <h2>Follow us:</h2>
         <ul class="social-media">
@@ -61,7 +49,5 @@
             <!-- <i class='bx bxl-facebook-circle' style='color:black' >facebook</i> -->
         <p>&copy; 2025 searchSchool. All rights reserved.</p>
     </div>
-
-    
 </body>
 </html>
