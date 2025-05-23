@@ -1,11 +1,11 @@
 body {
-  display: flex;
-  flex-direction: column;
-padding: 0;
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4; 
- }
+    display: flex;
+    flex-direction: column;
+  padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; 
+   }
 /* for header*/
 header {
  
@@ -85,6 +85,13 @@ nav a:hover{
 .footer-container .social-media h2{
   margin: 0 10px;
 }
+ .corner-shape {
+        width: 90px;
+        height: 130px;
+        background-color: #210d2f;
+        position: relative ;
+        Left:1390px;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 60%, 0 70%);}
 p{
 font-size: 14px;
 margin-top: 20px;
@@ -133,16 +140,8 @@ left: 50px;
   margin-top: 20px;
   width: 50%;
 }
- .corner-shape {
-        width: 90px;
-        height: 130px;
-        background-color: #210d2f;
-        position: relative ;
-        Left:1180px;
-        top: -120px;
-right: 0;
-
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 60%, 0 70%);}
+  
+          
         /* Responsive Design */
         @media (max-width: 768px) {
           body {
