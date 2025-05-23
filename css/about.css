@@ -46,16 +46,30 @@ nav a:hover {
   text-decoration: overline;
 }
 
-.corner-shape {
+/* .corner-shape {
   width: 90px;
   height: 130px;
   background-color: #210d2f;
   position: relative;
   left: 10px;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 60%, 0 70%);
-}
-
-.footer-content {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 60%, 0 70%); */
+   /* clip-path: polygon(
+        0 0, 
+        100% 0, 
+        100% 100%, 
+        60% 100%, 
+        50% 90%, 
+        40% 100%, 
+        0 100%
+      ) */
+   .corner-shape {
+        width: 90px;
+        height: 130px;
+        background-color: #210d2f;
+        position: relative ;
+        Left:10px;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 60%, 0 70%);}
+      .footer-content {
   background-color: #2A1835;
   color: white;
   padding: 0;
@@ -190,7 +204,5 @@ p {
   .corner-shape{
     display: none;
   }
-  .con-a{
-    /* margin-top: 300px; */
-  }
+ 
 }
