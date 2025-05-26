@@ -9,7 +9,9 @@
 <body>
   <div id="loader">
     <div class="spinner"></div>
-    <h1>welcome to dashboard</h1>
+
+    <h1> dashboard</h1>
+
   </div>
 
   <div class="dashboard-container">
@@ -17,7 +19,8 @@
       <h2>White Hat Developer</h2>
       <nav>
         <ul>
- 
+
+
           <li><a href="/index.html">home</a></li>
             <li><a href="about.html">about</a></li>
           <li><a href="skills.html">skills</a></li>
@@ -35,16 +38,69 @@
       <header>
         <h1>Dashboard</h1>
       </header>
-      <section class="stats">
-        <!-- Add statistic cards here -->
-      </section>
-      <section class="charts">
-        <!-- Integrate charts using Chart.js or similar library -->
-      </section>
+
+     <section class="stats">
+  <div class="card">
+    <h3>Projects</h3>
+    <p>12</p>
+  </div>
+  <div class="card">
+    <h3>Clients</h3>
+    <p>8</p>
+  </div>
+  <div class="card">
+    <h3>Technologies</h3>
+    <p>15</p>
+  </div>
+  <div class="card">
+    <h3>Experience (Years)</h3>
+    <p>3</p>
+  </div>
+</section>
+
+    <section class="charts">
+  <canvas id="skillsChart" width="400" height="200"></canvas>
+</section>
+
+
     </main>
   </div>
 
   <script src="../js/loader.js"></script>
   <!-- Include Chart.js or other necessary scripts here -->
+
+   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  const ctx = document.getElementById('skillsChart').getContext('2d');
+  const skillsChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['HTML', 'CSS', 'JavaScript', 'Vue.js', 'Node.js'],
+      datasets: [{
+        label: 'Skill Level',
+        data: [95, 90, 85, 80, 75],
+        backgroundColor: [
+          '#3498db',
+          '#2ecc71',
+          '#f1c40f',
+          '#e67e22',
+          '#9b59b6'
+        ],
+        borderRadius: 6
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100
+        }
+      }
+    }
+  });
+</script>
+
+
 </body>
 </html>
