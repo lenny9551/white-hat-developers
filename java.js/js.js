@@ -70,3 +70,9 @@ function sendMessage() {
   alert("Message sent successfully!");
   input.value = ""; // Clear the input box
 }
+document.getElementById("messageInput").addEventListener("keydown", function(event) {
+  if (event.key === "Enter" && !event.shiftKey) {
+    event.preventDefault();
+    sendMessage();
+  }
+});
