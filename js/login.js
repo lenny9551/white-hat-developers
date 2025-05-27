@@ -13,19 +13,20 @@ function validateLogin(event) {
     return;
   }
 
-  if (inputEmail !== storedUser.email) {
-    errorMessage.textContent = "Incorrect email. This is not the one used during signup.";
+  if (inputEmail !== storedUser.email || inputPassword !== storedUser.password) {
+    errorMessage.textContent = "❌ Incorrect email or password.";
     errorMessage.style.color = "red";
-  } else {
-    // ✅ Mark user as logged in
-    localStorage.setItem("isLoggedIn", "true");
-    localStorage.setItem("loggedUser", inputEmail);
-
-    errorMessage.textContent = "Login successful! Redirecting...";
-    errorMessage.style.color = "green";
-
-    setTimeout(() => {
-      window.location.href = "../index.html";
-    }, 1500);
+    return;
   }
+
+  // ✅ Mark user as logged in
+  localStorage.setItem("isLoggedIn", "true");
+  localStorage.setItem("loggedUser", inputEmail);
+
+  errorMessage.textContent = "✅ Login successful! Redirecting...";
+  errorMessage.style.color = "green";
+
+  setTimeout(() => {
+    window.location.href = "../index.html";
+  }, 1500);
 }
