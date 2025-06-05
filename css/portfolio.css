@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
@@ -60,45 +61,48 @@ nav a:hover {
 }
 
 /* Footer */
-.footer-content {
-  background-color: #2A1835;
-  color: white;
-  padding: 20px 10px;
+
+footer {
+  background-color: #210d2f;
+  color: #fff;
+  padding: 2rem;
   text-align: center;
-  width: 100%;
-  margin-top: auto;
+  margin-top: 300px;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .footer-content h2 {
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
 }
 
-.footer-content .social-media {
+.social-media {
+  list-style: none;
+  padding: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin-top: 10px;
+  gap: 2rem;
+  margin-bottom: 1rem;
 }
 
-.footer-content .social-media a {
-  text-decoration: none;
-  color: #ccc;
-  font-size: 24px;
-  transition: 0.3s;
-}
-
-.footer-content .social-media a:hover {
-  color: #0073e6;
-}
-
-.footer-content p {
-  font-size: 14px;
+.social-media li a {
   color: #fff;
-  margin-top: 10px;
-  padding: 0 10px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.3s;
 }
+
+.social-media li a:hover {
+  color: #00bcd4;
+}
+
 
 /* Corner Shape */
 .corner-shape {
@@ -139,6 +143,7 @@ p {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
   cursor: pointer;
+  margin-top: 40px;
 }
 
 .port img:hover {
